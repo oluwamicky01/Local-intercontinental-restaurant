@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color: rgb(51, 50, 50);
+
+}
+.background{
+    width: 100%;
+    height: 100vh;
+  background-image: url(../img/Muschel-Spaghetti\ in\ Tomatensugo.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 0
+} 
+.on{
+    background-color: rgb(58, 14, 14);
+    height: 590px;
+    width: 440px;
+}
+.fblink{
+    margin-top: 5px;
+    width: 100%;
+}
+.fblink span{
+    font-size: 18px;
+    color: blueviolet;
+}
+.forget-id{
+    margin: 10px;
+    color: blueviolet;
+}
+.forget-id a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+form .option{
+    color: #5a5a5a;
+    margin: 10px 0;
+    font-weight: bold;
+    position: relative;
+} 
+form.option:before{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 3px;
+    background: gray;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+form.option:after{
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 3px;
+    background: gray;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+form button{
+    border: none;
+    background: #043fff;
+    padding: 5px 0;
+    margin-top: 25px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+    width: 390px;
+}

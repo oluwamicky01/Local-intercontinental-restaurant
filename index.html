@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="group.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food website</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/signup.css">
+  <link rel="stylesheet" href="css/forgetpassword.css">
+  <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+  <link rel="stylesheet" href="signup.html">
+  <link rel="stylesheet" href="login.html">
+  <link rel="stylesheet" href="forgetpassword.html">
+</head>
+<body>
+  <header>
+    <div class="first-div">
+      <div class="logo">
+        <h1>FOODIE</h1>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for product">
+        <select>
+          <option>All categories
+            <option value="all">All</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+            <option value="dessert">Dessert</option>
+            <option value="drinks">Drinks</option>
+            <option value="snacks">Snacks</option>
+          </option>
+        </select>
+        <button class="search-btn">🔍</button>
+      </div>
+      <div class="auth-buttons">
+        <button class="login-btn"><a href="Login.html">Login</a></button>
+        <button class="signup-btn"><a href="signup.html">Sign up</a></button>
+      </div>
+    </div>
+
+    <div class="second-div">
+      <ul class="nav-links">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Page</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="contact-info">
+        <span>📞 Call Us: 310-231-124</span>
+      </div>
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <div class="first-div-mobile">
+      <div class="logo">
+        <h1>FOODIE</h1>
+      </div>
+      <div class="auth-buttons">
+        <button class="login-btn">Login</button>
+        <button class="signup-btn">Sign up</button>
+      </div>
+      <div class="contact-info">
+        <span>📞 Call Us: 310-231-124</span>
+      </div>
+    </div>
+    <ul class="nav-links-mobile">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Page</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <section class="container">
+    <div class="foodapp">
+      <div class="food">
+        <div class="ima"></div>
+        <div class="content">
+            <h3 class="tent" >Enjoyed <span class="joy">The Test of</span><br><span class="esh">Fresh</span> Food</h3>
+            <div class="sub-content">
+              <a href=""><p class="now">Order Now</p></a>
+            </div>
+        </div>
+      </div>
+  
+      <!-- <div class="app">
+          <div class="pap">
+             <div class="mic"><img src="img/images (7).jpeg" alt=""></div>
+             <h2 class="doe">MICKEY DOE</h2> 
+            <h3 class="rem">Lorem ipsum dolor sit amet, consectetura dipiscing elit, sed do eiusmo <br> incididunt ut labore et dolore magna aliqua.” The purpose of lorem <br>ipsum is to create a natural looking block of text (sentence, paragraph, <br>page, etc.) that doesn't distract from the layout.Lorem ipsum dolor sit amet, consectetura<br>Lorem ipsum dolor sit amet, consectetura dipiscing elit, sed do eiusmo <br> incididunt ut labore et dolore magna aliqua.” The purpose of lorem <br>ipsum is to create a natural looking block of text (sentence, paragraph, <br>page, etc.) that doesn't distract from the layout.Lorem ipsum dolor sit amet,<brLorem ipsum dolor sit amet, consectetura dipiscing elit, sed do eiusmo <br> incididunt ut labore et dolore magna aliqua.” The purpose of lorem <br>ipsum is to create a natural looking block of text (sentence, paragraph, <br>page, etc.) that doesn't distract from the layout.Lorem ipsum dolor sit amet,></h3>
+          </div>
+      </div> -->
+    </div>
+    </section>
+
+    <div class="sub-container">
+        <h3 class="home">Safe and on time home deliveries</h3>
+        <div class="box">
+           <h4 class="view">View offers</h4>
+        </div>
+    </div>
+    <h2 class="today">Today's special</h2>
+    <h3 class="ipsum">Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit,</h3>
+
+    <section class="three">
+        <div class="squr1">
+            <h4 class="french" >French <span class="toa">Toast</span> with<br><span class="map">Mapie</span></h4>
+            <div class="watch">
+              <i class="fa-regular fa-clock fa-lg" style="color: #e2e1df;"></i>
+              <h5>10 min</h5>
+            </div>
+            <div class="star">
+              <i class="fa-solid fa-star fa-xl"style="color: #ffffff;"></i>
+              <i class="fa-solid fa-star fa-xl" style="color: #ffffff;"></i>
+              <i class="fa-solid fa-star fa-xl" style="color: #ffffff;"></i>
+              <i class="fa-solid fa-star fa-xl" style="color: #ffffff;"></i>
+              <i class="fa-solid fa-star-half fa-xl" style="color: #ffffff;"></i>
+              <h3 class="ord"><a href="">Order now</a></h3>
+            </div>
+        </div>
+
+        <div class="squr2">
+            <h4 class="fre" >French <span class="toa">Toast</span> with<br>Mapie</span></h4>
+            <div class="watch">
+              <i class="fa-regular fa-clock fa-lg" style="color: #e2e1df;"></i>
+              <h5>10 min</h5>
+              <div class="star1">
+                <i class="fa-solid fa-star "style="color: #ffffff;"></i>
+                <i class="fa-solid fa-star " style="color: #ffffff;"></i>
+                <i class="fa-solid fa-star " style="color: #ffffff;"></i>
+                <i class="fa-solid fa-star " style="color: #ffffff;"></i>
+                <i class="fa-solid fa-star-half " style="color: #ffffff;"></i>
+                <h3 class="ord1"><a href="#Order">Order now</a></h3>
+              </div>
+            </div>
+        </div>
+
+        <div class="squr3">
+            <h4 class="fre" ><span class="toa">French </span>Toast with<br>Mapie</span></h4>
+            <div class="watch"> 
+               <i class="fa-regular fa-clock fa-lg" style="color: #e2e1df;"></i>
+                <h5>10 min</h5>
+              <div class="star1">
+                <i class="fa-solid fa-star "style="color: #ffffff;"></i>
+                <i class="fa-solid fa-star " style="color: #ffffff;"></i>
+                <i class="fa-solid fa-star " style="color: #ffffff;"></i>
+                <i class="fa-solid fa-star " style="color: #ffffff;"></i>
+                <i class="fa-solid fa-star-half " style="color: #ffffff;"></i>
+                <h3 class="ord1"><a href="">Order now</a></h3>
+              </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cardlist">
+      <div class="shopping">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span class="number">0</span>
+      </div>
+      <div class="list"></div>
+    </div>
+
+    <div class="card">
+      <h1>Card</h >
+      <ul class="listCard"></ul>
+      <div class="checkout">
+        <div class="total">0</div>
+        <div class="closeShopping">close</div>
+      </div>
+    </div>
+
+  <section id="item">
+    <div id="A011">
+      <p class="pro"> Product Slider</p>
+      <div class="arrows">
+        <div class="arrow"><i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></div>
+        <div class="arrow"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></div>
+      </div>
+    </div>
+
+    <div id="BBB">
+      <ul id="A012">
+        <li>
+          <img src="img/IMG-20240925-WA0018.jpg">
+          <p class="name">Milkshake <span>Brownie</span></p>
+          <div class="p-add">
+            <p class="num">$150.00</p>
+            <div class="add"><a href="">Add to Cart</a></div>  
+          </div>
+        </li>
+        <li>
+          <img src="img/IMG-20240925-WA0020.jpg">
+          <p class="name">Ricado <span>Pizza</span></p>
+          <div class="p-add">
+            <p class="num">$120.00</p>
+            <div class="add"><a href="">Add to Cart</a></div>  
+          </div>
+        </li>
+        <li>
+          <img src="img/IMG-20240925-WA0014.jpg">
+          <p class="name">Ham<span>Burger</span></p>
+          <div class="p-add">
+            <p class="num">$100.00</p>
+            <div class="add"><a href="">Add to Cart</a></div>  
+          </div> 
+        </li>
+        <li>
+          <img src="img/West African Delight_ Chef's Special Jollof Rice.jpg">
+          <p class="name">Jollof <span>Rice</span></p>
+        <div class="p-add">
+          <p class="num">$220.00</p>
+          <div class="add"><a href="">Add to Cart</a></div>  
+          <!-- <button onclick="button">Add to cart </button> -->
+        </div>
+        </li>
+      </ul>
+    </div>
+    
+    <div id="BBB" >
+      <ul id="A013">
+        <li>
+          <img src="img/IMG-20240925-WA0019.jpg">
+          <p class="name">RaspBerry <span>Ice cream</span></p>
+          <div class="p-add">
+            <p class="num">$140.00</p>
+            <div class="add"><a href="">Add to Cart</a></div>  
+          </div>
+        </li>
+        <li>
+          <img src="img/IMG-20240925-WA0011.jpg">
+          <p class="name">Club <span>SandWich</span></p>
+          <div class="p-add">
+            <p class="num">$180.20</p>
+            <div class="add"><a href="">Add to Cart</a></div>  
+          </div>
+        </li>
+        <li>
+          <img src="img/IMG-20240925-WA0017.jpg">
+          <p class="name">Mug of<span> ice</span></p>
+          <div class="p-add">
+            <p class="num">$130.80</p>
+            <div class="add"><a href="">Add to Cart</a></div>  
+          </div> 
+        </li>
+        <li>
+          <img src="img/download.jpg">
+          <p class="name">Amala <span>& vegetable</span></p>
+          <div class="p-add">
+            <p class="num">$130.80</p>
+            <div class="add"><a href="">Add to Cart</a></div>  
+             
+          </div> 
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="sec">
+     <!-- <SECTION 1> -->
+      <div class="l11">
+        <p class="L01">FOO<span class="l02">DIE</span></p>
+            <div class="intro1">   
+              <p> At Foodie restaurant,  you can enjoy stunning ocean</p>
+              <p>views while  our signature cocktails and  delicious dishes.</p>             
+              <p>Phone Number: (012) 800 042 259 121</p>
+              <p>Email: Contact@foodie.com</p>
+              <p>Address: 6688Princess Road, London, Greater London</p>
+            </div>
+      </div>
+
+    <div class="l00">
+        <ul class="l03">
+            <li class="l04"><a href="#"><i class="fa-brands fa-facebook "></i> Facebook</a></li>
+            <li class="l04"><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+            <li class="l04"><a href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+            <li class="l04"><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+        </ul>
+    </div>
+
+    <div class="og">
+        <div class="l05">
+            <div>Contact Us</div>
+          
+        </div>
+        <div class="l06">
+          Be the first to get our newseitter
+
+      </div>
+      <div><input type="email" class="l07" placeholder="Enter your email address">
+        <button class="l08">Subscribe</button></div>
+    </div>
+  </section>
+</body>
+</html>
+<script src="addtocart.js"></script>
+<script>
+  // Get all the "Add to Cart" buttons
+const addToCartButtons = document.querySelectorAll('#A012 .add a');
+
+// Add event listener to each button
+addToCartButtons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    event.preventDefault(); // Prevent default link behavior
+
+    // Get the product details from the parent element
+    const productDetails = button.closest('li');
+    const productName = productDetails.querySelector('.name').textContent;
+    const productPrice = productDetails.querySelector('.num').textContent;
+
+    // Create a cart item object
+    const cartItem = {
+      name: productName,
+      price: productPrice,
+      quantity: 1,
+    };
+
+    // Add the item to the cart (you can modify this to use your cart storage mechanism)
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push(cartItem);
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Update the cart count (you can modify this to update your cart count display)
+    const cartCount = document.querySelector('#cart-count');
+    cartCount.textContent = `Cart (${cart.length})`;
+
+    // Alert the user that the item has been added to the cart
+    alert(`Added ${productName} to cart!`);
+  });
+});
+</script>
+<script>
+  function toggleMenu() {
+const mobileMenu = document.getElementById("mobile-menu");
+mobileMenu.classList.toggle("active");
+}
+
+window.addEventListener('resize', function() {
+const mobileMenu = document.getElementById("mobile-menu");
+if (window.innerWidth > 768) {
+  mobileMenu.classList.remove("active");
+}
+});
+
+document.querySelector('.login-btn').addEventListener('click', function() {
+alert('Login button clicked!');
+});
+
+
+
+document.querySelector('.signup-btn').addEventListener('click', function() {
+alert('Sign up button clicked!');
+});
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const firstDiv = document.querySelector('.first-div');
+    const secondDiv = document.querySelector('.second-div');
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    
+    // Function to check screen width
+    function checkScreenWidth() {
+        if (window.innerWidth <= 768) {
+            // Hide desktop menu
+            firstDiv.style.display = 'none';
+            secondDiv.style.display = 'none';
+            hamburger.style.display = 'block'; // Show mobile menu icon
+        } else {
+            // Show desktop menu
+            firstDiv.style.display = 'flex';
+            secondDiv.style.display = 'flex';
+            hamburger.style.display = 'none'; // Hide mobile menu icon
+            mobileMenu.classList.remove('active');
+        }
+    }
+
+    // Call the function on page load and resize
+    checkScreenWidth();
+    window.addEventListener('resize', checkScreenWidth);
+
+    // Toggle mobile menu when clicking the hamburger icon
+    hamburger.addEventListener('click', function() {
+        mobileMenu.classList.toggle('active');
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const firstDiv = document.querySelector('.first-div');
+    const secondDiv = document.querySelector('.second-div');
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    
+    // Function to check screen width
+    function checkScreenWidth() {
+        if (window.innerWidth <= 768) {
+            // Hide desktop menu
+            firstDiv.style.display = 'none';
+            secondDiv.style.display = 'none';
+            hamburger.style.display = 'block'; // Show mobile menu icon
+        } else {
+            // Show desktop menu
+            firstDiv.style.display = 'flex';
+            secondDiv.style.display = 'flex';
+            hamburger.style.display = 'none'; // Hide mobile menu icon
+            mobileMenu.classList.remove('active');
+        }
+    }
+
+    // Call the function on page load and resize
+    checkScreenWidth();
+    window.addEventListener('resize', checkScreenWidth);
+
+    // Toggle mobile menu when clicking the hamburger icon
+    hamburger.addEventListener('click', function() {
+        mobileMenu.classList.toggle('active');
+    });
+});
+
+</script> 
